@@ -8,7 +8,6 @@ class demo extends StatelessWidget {
   Widget build(BuildContext context) {
 
     Model m=Get.put(Model());
-
     return Scaffold(
       appBar: AppBar(
         title: Text("Getx Demo"),
